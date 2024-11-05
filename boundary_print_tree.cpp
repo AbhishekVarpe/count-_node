@@ -96,30 +96,3 @@ int main() {
     boundaryTraversal(root);
     return 0;
 }
-
-/*
-Output:
-
-Boundary Traversal: 1 2 3 5 6 4 7 8 
-
-
-Time Complexity: O(n)
-
-Space Complexity: O(h), where h is the height of the tree
-
-This code defines a binary tree node structure, creates a sample binary tree, and performs boundary traversal using recursive functions.
-
-Key Functions:
-
-- leftBoundary: Prints the left boundary nodes.
-- leafNodes: Prints the leaf nodes.
-- rightBoundary: Prints the right boundary nodes.
-- boundaryTraversal: Performs the boundary traversal.
-
-Would you like me to:
-
-1. Explain any specific part of the code?
-2. Provide examples for different binary tree structures?
-3. Discuss variations of the boundary traversal algorithm?
-
-*/
